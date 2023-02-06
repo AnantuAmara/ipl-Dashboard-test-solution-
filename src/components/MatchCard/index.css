@@ -1,0 +1,54 @@
+/* Write your CSS here */
+.match-card-container {
+  background-color: #0f172a;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  height: 200px;
+  margin: 15px;
+}
+
+@media screen and (max-width: 576px) {
+  .match-card-container {
+    width: 80%;
+  }
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+}
+
+.heading-1 {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.para-1 {
+  font-size: 10px;
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+
+.lost {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  text-decoration: none;
+}
+
+.won {
+  font-size: 15px;
+  font-family: 'Bree Serif';
+  color: #18ed66;
+  text-decoration: none;
+}
